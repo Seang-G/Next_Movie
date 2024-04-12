@@ -1,6 +1,7 @@
 import "../styles/global.css"
 import { Metadata } from "next"
 import Navigation from "../components/navigation"
+import Logo from "../components/logo"
 
 export const metadata: Metadata = {
   title: {
@@ -18,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navigation />
+        <Logo href="/" />
         {children}
       </body>
     </html>

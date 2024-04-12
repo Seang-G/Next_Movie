@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+
+  width: 80%;
+  margin: 0 auto;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  padding-bottom: 30px;
+}
+
+.credit {
+  width: fit-content;
+
+  margin: 0 10px;
+  
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+} 
+
+.credit img {
+  min-width: 180px;
+  min-height: 280px;
+  border-radius: 10px 10px 0 0;
+}
+
+
+.credit_name {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  text-align: center;
+  font-weight: 700;
+}
+
+.credit_character {
+  text-align: center;
+  opacity: 0.8;
+
+  margin-bottom: 5px;
+}
