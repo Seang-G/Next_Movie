@@ -17,7 +17,7 @@ export default async function MovieCredits({id}: {id:string}) {
       {credits.map(credit=>{
         return(
           <div key={credit.id} className={styles.credit}>
-            <img src={credit.profile_path} alt={credit.name} />
+            <img src={credit.profile_path?credit.profile_path:"/images/empty_poster.png"} alt={credit.name} />
             <div className={styles.credit_name}>{credit.name}</div>
             <div className={styles.credit_character}>{credit.character}</div>
           </div>

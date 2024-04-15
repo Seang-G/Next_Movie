@@ -4,11 +4,12 @@
   gap: 50px;
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .poster {
   border-radius: 20px;
-  max-width: 70%;
+  max-width: 90%;
   place-self: center;
 }
 

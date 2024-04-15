@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* gap: 50px; */
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.similar {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.similar h2 {
+  position: relative;
+  width: 100%;
+  height: 0;
+
+  top: 30%;
+
+  font-weight: 600;
+  font-size: 1.7rem;
+
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.similar img {
+  width: 100%;
+  transition: opacity 0.3s ease-in-out
+}
+
+.similar:hover h2 {
+  opacity: 1;
+}
+
+.similar:hover img {
+  opacity: 0.3;
+}

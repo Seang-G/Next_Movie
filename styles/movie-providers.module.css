@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 70%;
+  
+  margin: 0 auto;
+  gap: 1%;
+
+  overflow: hidden;
+}
+
+.provider {
+  border-radius: 10%;
+  overflow: hidden;
+  animation: moveLeft1 5s linear infinite, moveLeft2 5s linear infinite;
+}
+
+.provider img{
+  width: 100%;
+}
+
+/* .provider img:nth-child(odd) {
+  animation: moveLeft2 10s linear infinite; /* moveRight 애니메이션 적용 */
+
+
+@keyframes moveLeft1 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes moveLeft2 {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(0%); }
+}
